@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cheapair.stepdefinition.CheapAirStepDefinition">
+        <methods>
+          <include name="validate_the_passenger_details"/>
+          <include name="launch_browser_and_Load_Url"/>
+          <include name="select_air_and_passenger_details"/>
+        </methods>
+      </class> <!-- com.cheapair.stepdefinition.CheapAirStepDefinition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
